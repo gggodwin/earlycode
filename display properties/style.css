@@ -1,0 +1,48 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* block elements always start a new line and takes up all width
+h1 elements is a default block
+*/
+
+.block{
+    background-color: aquamarine;
+    color: brown;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Horizontal centering*/
+
+.block-h{
+    background-color: aquamarine;
+    color: brown;
+    margin: 10px auto;
+    width: 200px;
+    display: block;
+}
+
+/* inline elements does not start a new line but compress everything it  also does not respect bottom and top margin
+*/
+
+.inline{
+    background-color: bisque;
+    color: cornflowerblue;
+    margin: 20px 10px 20px 10px; 
+    display: inline;
+}
+
+/* inline-block elements does not start a new line but compress everything HOWEVER it does respect the top and bottom
+*/
+
+.inline-b{
+    background-color: blueviolet;
+    color: aliceblue;
+    margin: 20px 10px 20px 10px; 
+    display: inline-block;
+}
