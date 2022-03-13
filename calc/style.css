@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    background-color: bisque;
+    height: 100px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.banner{
+    background-color:cornsilk;
+    min-height: calc(100vh - 100px); /* adjust the size to remove the excess 100px from the header */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+}

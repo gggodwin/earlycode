@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picture Gallery</title>
+</head>
+
+<style type="text/css">
+	
+	@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+	*{
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	body{
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.container{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		border: hidden 1px black;
+		box-shadow: 5px 5px 10px 5px rgba(100,100, 100, .7);
+		height: 70vh;
+		width: 1000px;
+	}
+
+	.links{
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%,-50%); 
+		display: flex;
+		flex-direction: row;
+		letter-spacing: 1px
+	}
+
+	a{
+		border: 1px solid black;
+		margin: 10px;
+		padding: 5px;
+		border-radius:20px;
+		width: 20vh;
+
+	}
+
+	
+	.container .title {
+		margin:25px;
+		font-weight: 1000;
+		border-top: 3px solid gray; 
+		border-bottom: 3px solid gray; 
+		padding: 5px;
+		font-size: 1.4em;
+	}
+
+	.links a:hover{
+		background-color: rgba(228, 241, 250, 1);
+		cursor: pointer;
+		box-shadow: 5px 5px 10px 5px rgba(100,100, 100, .8);
+	}
+
+	.links a:active{
+		opacity: .5;
+		cursor: pointer;
+	}
+
+
+	.container iframe {
+		position: absolute;
+		top:60%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 190vh;
+		height: 55vh;
+		border: none;
+	}
+
+
+</style>
+
+<body>
+	<div class="container">
+	
+	<div class="title">Art Gallery</div>
+		<iframe src="link6.html" name="1"></iframe>
+
+	</div>
+
+		<div class ="links">
+
+			<a href="link1.html" target="1">Artwork #1</a>
+			<a href="link2.html" target="1">Artwork #2</a>
+			<a href="link3.html" target="1">Artwork #3</a>
+			<a href="link4.html" target="1">Artwork #4</a>
+			<a href="link5.html" target="1">Artwork #5</a>
+
+		</div>
+
+</body>
+</html>
